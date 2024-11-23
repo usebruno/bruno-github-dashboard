@@ -23,10 +23,12 @@ export default function Assignees() {
 
   // Calculate assignee statistics
   const assigneeStats = filteredIssues?.reduce((stats, issue) => {
-    if (!issue.assignee) {
+    if (!issue.assignees?.length) {
       stats.unassigned = (stats.unassigned || 0) + 1;
     } else {
-      stats[issue.assignee.login] = (stats[issue.assignee.login] || 0) + 1;
+      issue.assignees.forEach(assignee => {
+        stats[assignee.login] = (stats[assignee.login] || 0) + 1;
+      });
     }
     return stats;
   }, {}) || {};
@@ -35,9 +37,9 @@ export default function Assignees() {
   const selectedIssues = filteredIssues?.filter(issue => {
     if (!selectedAssignee) return false;
     if (selectedAssignee === 'unassigned') {
-      return !issue.assignee;
+      return !issue.assignees?.length;
     }
-    return issue.assignee?.login === selectedAssignee;
+    return issue.assignees?.some(assignee => assignee.login === selectedAssignee);
   });
 
   return (
@@ -102,8 +104,8 @@ export default function Assignees() {
                 .sort((a, b) => b[1] - a[1])
                 .map(([login, count]) => {
                   const assignee = filteredIssues.find(issue => 
-                    issue.assignee?.login === login
-                  )?.assignee;
+                    issue.assignees?.some(a => a.login === login)
+                  )?.assignees?.find(a => a.login === login);
                   
                   return (
                     <tr 

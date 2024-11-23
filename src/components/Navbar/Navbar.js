@@ -6,8 +6,8 @@ import { usePathname } from 'next/navigation';
 const navigation = [
   { name: 'Dashboard', href: '/dashboard' },
   { name: 'Issues', href: '/issues' },
-  // { name: 'Pull Requests', href: '/pulls' },
-  // { name: 'Releases', href: '/releases' },
+  { name: 'Pulls', href: '/pulls' },
+  { name: 'Releases', href: '/releases' },
 ]
 
 function classNames(...classes) {

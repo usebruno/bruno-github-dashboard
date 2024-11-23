@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import { useRouter } from 'next/router';
+import Stats from './stats';
 import Modules from './modules';
 import Assignees from './assignees';
 import Reporters from './reporters';
@@ -7,10 +8,11 @@ import Timeline from './timeline';
 
 export default function Issues() {
   const router = useRouter();
-  const tab = router.query.tab || 'modules'; // Default to 'modules' tab
+  const tab = router.query.tab || 'stats';
 
   // Navigation items
   const navItems = [
+    { name: 'Stats', path: '?tab=stats' },
     { name: 'Modules', path: '?tab=modules' },
     { name: 'Assignees', path: '?tab=assignees' },
     { name: 'Timeline', path: '?tab=timeline' },
@@ -43,6 +45,7 @@ export default function Issues() {
         </div>
       </nav>
 
+      {tab === 'stats' && <Stats />}
       {tab === 'modules' && <Modules />}
       {tab === 'assignees' && <Assignees />}
       {tab === 'timeline' && <Timeline />}

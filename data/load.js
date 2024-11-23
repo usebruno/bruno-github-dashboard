@@ -77,7 +77,7 @@ async function loadAllGithubData() {
     console.log(chalk.green(`✅ Successfully saved ${chalk.bold(issues.length)} issues to data/issues.json`));
 
     console.log(chalk.magenta('\n🔄 Fetching pull requests...'));
-    const closedPrs = await getGithubDataWithPagination('pulls');
+    const closedPrs = await getGithubDataWithPagination('pulls?state=all');
     await saveJsonToFile(closedPrs, 'prs.json');
     console.log(chalk.green('✅ Successfully saved PRs to data/prs.json'));
 
