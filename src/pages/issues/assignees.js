@@ -5,11 +5,20 @@ import IssueList from '@/components/IssueList/IssueList';
 export default function Assignees() {
   const { issues } = useGithub();
   const [stateFilter, setStateFilter] = useState('open');
+  const [termFilter, setTermFilter] = useState('all');
   const [selectedAssignee, setSelectedAssignee] = useState(null);
 
-  // Apply state filter
+  // Apply state and term filters
   const filteredIssues = issues?.filter(issue => {
-    return (stateFilter === 'all' || issue.state === stateFilter);
+    const stateMatches = stateFilter === 'all' || issue.state === stateFilter;
+    
+    let termMatches = true;
+    if (termFilter !== 'all') {
+      const labelName = `${termFilter}-term-goal`;
+      termMatches = issue.labels.some(label => label.name === labelName);
+    }
+    
+    return stateMatches && termMatches;
   });
 
   // Calculate assignee statistics
@@ -37,15 +46,28 @@ export default function Assignees() {
         <div className="flex justify-between items-center mb-4">
           <h1 className="text-xl font-bold">Assignees</h1>
           
-          <select
-            value={stateFilter}
-            onChange={(e) => setStateFilter(e.target.value)}
-            className="text-sm border rounded px-2 py-1 focus:outline-none focus:ring-1 focus:ring-blue-500"
-          >
-            <option value="open">Open Issues</option>
-            <option value="closed">Closed Issues</option>
-            <option value="all">All Issues</option>
-          </select>
+          <div className="flex gap-2">
+            <select
+              value={termFilter}
+              onChange={(e) => setTermFilter(e.target.value)}
+              className="text-sm border rounded px-2 py-1 focus:outline-none focus:ring-1 focus:ring-blue-500"
+            >
+              <option value="all">All Issues</option>
+              <option value="short">Short Term</option>
+              <option value="mid">Mid Term</option>
+              <option value="long">Long Term</option>
+            </select>
+
+            <select
+              value={stateFilter}
+              onChange={(e) => setStateFilter(e.target.value)}
+              className="text-sm border rounded px-2 py-1 focus:outline-none focus:ring-1 focus:ring-blue-500"
+            >
+              <option value="open">Open Issues</option>
+              <option value="closed">Closed Issues</option>
+              <option value="all">All Issues</option>
+            </select>
+          </div>
         </div>
         
         <div className="bg-white rounded shadow w-full">
