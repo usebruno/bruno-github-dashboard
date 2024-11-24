@@ -18,7 +18,7 @@ export default function Dashboard() {
   const openIssuesCount = issues?.filter((issue) => {
     return issue.state === 'open';
   })?.length || 0;
-  const openPRsCount = prs?.length || 0;
+  const openPRsCount = prs?.filter(pr => pr?.state === 'open')?.length || 0;
   const latestVersion = releases?.[0]?.tag_name || 'v0.0.0';
   const latestRelease = releases?.[0];
 
