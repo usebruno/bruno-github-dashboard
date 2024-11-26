@@ -65,7 +65,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 85107198,
-        "download_count": 551,
+        "download_count": 642,
         "created_at": "2024-11-21T17:46:51Z",
         "updated_at": "2024-11-21T17:47:01Z",
         "browser_download_url": "https://github.com/usebruno/bruno/releases/download/v1.35.0/bruno_1.35.0_amd64_linux.deb"
@@ -100,7 +100,7 @@
         "content_type": "application/x-diskcopy",
         "state": "uploaded",
         "size": 112443082,
-        "download_count": 7795,
+        "download_count": 8936,
         "created_at": "2024-11-21T16:43:04Z",
         "updated_at": "2024-11-21T16:43:15Z",
         "browser_download_url": "https://github.com/usebruno/bruno/releases/download/v1.35.0/bruno_1.35.0_arm64_mac.dmg"
@@ -135,7 +135,7 @@
         "content_type": "application/zip",
         "state": "uploaded",
         "size": 107702784,
-        "download_count": 235,
+        "download_count": 274,
         "created_at": "2024-11-21T16:43:15Z",
         "updated_at": "2024-11-21T16:43:24Z",
         "browser_download_url": "https://github.com/usebruno/bruno/releases/download/v1.35.0/bruno_1.35.0_arm64_mac.zip"
@@ -170,7 +170,7 @@
         "content_type": "application/x-diskcopy",
         "state": "uploaded",
         "size": 119951520,
-        "download_count": 1460,
+        "download_count": 1719,
         "created_at": "2024-11-21T16:43:24Z",
         "updated_at": "2024-11-21T16:43:33Z",
         "browser_download_url": "https://github.com/usebruno/bruno/releases/download/v1.35.0/bruno_1.35.0_x64_mac.dmg"
@@ -205,7 +205,7 @@
         "content_type": "application/zip",
         "state": "uploaded",
         "size": 115220612,
-        "download_count": 91,
+        "download_count": 117,
         "created_at": "2024-11-21T16:43:33Z",
         "updated_at": "2024-11-21T16:43:42Z",
         "browser_download_url": "https://github.com/usebruno/bruno/releases/download/v1.35.0/bruno_1.35.0_x64_mac.zip"
@@ -240,7 +240,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 95361096,
-        "download_count": 3899,
+        "download_count": 4728,
         "created_at": "2024-11-21T18:11:45Z",
         "updated_at": "2024-11-21T18:11:57Z",
         "browser_download_url": "https://github.com/usebruno/bruno/releases/download/v1.35.0/bruno_1.35.0_x64_win.exe"
@@ -275,7 +275,7 @@
         "content_type": "application/zip",
         "state": "uploaded",
         "size": 134143412,
-        "download_count": 1774,
+        "download_count": 2075,
         "created_at": "2024-11-21T18:11:22Z",
         "updated_at": "2024-11-21T18:11:45Z",
         "browser_download_url": "https://github.com/usebruno/bruno/releases/download/v1.35.0/bruno_1.35.0_x64_win.zip"
@@ -310,7 +310,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 123801374,
-        "download_count": 249,
+        "download_count": 275,
         "created_at": "2024-11-21T17:48:07Z",
         "updated_at": "2024-11-21T17:48:16Z",
         "browser_download_url": "https://github.com/usebruno/bruno/releases/download/v1.35.0/bruno_1.35.0_x86_64_linux.AppImage"
@@ -399,7 +399,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 85112502,
-        "download_count": 3512,
+        "download_count": 3535,
         "created_at": "2024-11-05T16:33:29Z",
         "updated_at": "2024-11-05T16:33:45Z",
         "browser_download_url": "https://github.com/usebruno/bruno/releases/download/v1.34.2/bruno_1.34.2_amd64_linux.deb"
@@ -434,7 +434,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 112624719,
-        "download_count": 21890,
+        "download_count": 21896,
         "created_at": "2024-11-05T15:31:39Z",
         "updated_at": "2024-11-05T15:31:59Z",
         "browser_download_url": "https://github.com/usebruno/bruno/releases/download/v1.34.2/bruno_1.34.2_arm64_mac.dmg"
@@ -539,7 +539,7 @@
         "content_type": "application/zip",
         "state": "uploaded",
         "size": 115406631,
-        "download_count": 338,
+        "download_count": 339,
         "created_at": "2024-11-05T15:32:33Z",
         "updated_at": "2024-11-05T15:32:42Z",
         "browser_download_url": "https://github.com/usebruno/bruno/releases/download/v1.34.2/bruno_1.34.2_x64_mac.zip"
@@ -574,7 +574,7 @@
         "content_type": "application/x-msdownload",
         "state": "uploaded",
         "size": 95308192,
-        "download_count": 20052,
+        "download_count": 20096,
         "created_at": "2024-11-05T16:53:49Z",
         "updated_at": "2024-11-05T16:53:56Z",
         "browser_download_url": "https://github.com/usebruno/bruno/releases/download/v1.34.2/bruno_1.34.2_x64_win.exe"
@@ -609,7 +609,7 @@
         "content_type": "application/zip",
         "state": "uploaded",
         "size": 133988496,
-        "download_count": 6507,
+        "download_count": 6524,
         "created_at": "2024-11-05T16:53:35Z",
         "updated_at": "2024-11-05T16:53:47Z",
         "browser_download_url": "https://github.com/usebruno/bruno/releases/download/v1.34.2/bruno_1.34.2_x64_win.zip"
@@ -644,7 +644,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 124018443,
-        "download_count": 6293,
+        "download_count": 6363,
         "created_at": "2024-11-05T16:51:11Z",
         "updated_at": "2024-11-05T16:51:24Z",
         "browser_download_url": "https://github.com/usebruno/bruno/releases/download/v1.34.2/bruno_1.34.2_x86_64_linux.AppImage"
@@ -733,7 +733,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 85097926,
-        "download_count": 581,
+        "download_count": 582,
         "created_at": "2024-10-30T16:30:54Z",
         "updated_at": "2024-10-30T16:31:35Z",
         "browser_download_url": "https://github.com/usebruno/bruno/releases/download/v1.34.1/bruno_1.34.1_amd64_linux.deb"
@@ -838,7 +838,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 119928742,
-        "download_count": 1824,
+        "download_count": 1828,
         "created_at": "2024-10-30T16:16:45Z",
         "updated_at": "2024-10-30T16:16:54Z",
         "browser_download_url": "https://github.com/usebruno/bruno/releases/download/v1.34.1/bruno_1.34.1_x64_mac.dmg"
@@ -908,7 +908,7 @@
         "content_type": "application/x-msdownload",
         "state": "uploaded",
         "size": 95273824,
-        "download_count": 6146,
+        "download_count": 6148,
         "created_at": "2024-10-30T16:35:27Z",
         "updated_at": "2024-10-30T16:35:37Z",
         "browser_download_url": "https://github.com/usebruno/bruno/releases/download/v1.34.1/bruno_1.34.1_x64_win.exe"
@@ -1242,7 +1242,7 @@
         "content_type": "application/x-msdownload",
         "state": "uploaded",
         "size": 95410096,
-        "download_count": 6737,
+        "download_count": 6738,
         "created_at": "2024-10-24T15:33:02Z",
         "updated_at": "2024-10-24T15:33:12Z",
         "browser_download_url": "https://github.com/usebruno/bruno/releases/download/v1.34.0/bruno_1.34.0_x64_win.exe"
@@ -1436,7 +1436,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 112251477,
-        "download_count": 15152,
+        "download_count": 15153,
         "created_at": "2024-10-15T08:36:21Z",
         "updated_at": "2024-10-15T08:36:32Z",
         "browser_download_url": "https://github.com/usebruno/bruno/releases/download/v1.33.1/bruno_1.33.1_arm64_mac.dmg"
@@ -1576,7 +1576,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 89441752,
-        "download_count": 10521,
+        "download_count": 10522,
         "created_at": "2024-10-15T11:16:07Z",
         "updated_at": "2024-10-15T11:19:01Z",
         "browser_download_url": "https://github.com/usebruno/bruno/releases/download/v1.33.1/bruno_1.33.1_x64_win.exe"
@@ -1910,7 +1910,7 @@
         "content_type": "application/x-msdownload",
         "state": "uploaded",
         "size": 89437520,
-        "download_count": 5387,
+        "download_count": 5388,
         "created_at": "2024-10-09T18:58:55Z",
         "updated_at": "2024-10-09T18:59:23Z",
         "browser_download_url": "https://github.com/usebruno/bruno/releases/download/v1.33.0/bruno_1.33.0_x64_win.exe"
@@ -1945,7 +1945,7 @@
         "content_type": "application/zip",
         "state": "uploaded",
         "size": 126247513,
-        "download_count": 2125,
+        "download_count": 2130,
         "created_at": "2024-10-09T18:57:51Z",
         "updated_at": "2024-10-09T18:58:50Z",
         "browser_download_url": "https://github.com/usebruno/bruno/releases/download/v1.33.0/bruno_1.33.0_x64_win.zip"
@@ -2244,7 +2244,7 @@
         "content_type": "application/x-msdownload",
         "state": "uploaded",
         "size": 89437192,
-        "download_count": 5818,
+        "download_count": 5820,
         "created_at": "2024-10-04T14:36:19Z",
         "updated_at": "2024-10-04T14:36:28Z",
         "browser_download_url": "https://github.com/usebruno/bruno/releases/download/v1.32.1/bruno_1.32.1_x64_win.exe"
@@ -2578,7 +2578,7 @@
         "content_type": "application/x-msdownload",
         "state": "uploaded",
         "size": 89444776,
-        "download_count": 3926,
+        "download_count": 3928,
         "created_at": "2024-10-01T17:11:04Z",
         "updated_at": "2024-10-01T17:14:11Z",
         "browser_download_url": "https://github.com/usebruno/bruno/releases/download/v1.32.0/bruno_1.32.0_x64_win.exe"
@@ -2912,7 +2912,7 @@
         "content_type": "application/x-msdownload",
         "state": "uploaded",
         "size": 89425648,
-        "download_count": 2485,
+        "download_count": 2486,
         "created_at": "2024-09-30T07:01:08Z",
         "updated_at": "2024-09-30T07:01:18Z",
         "browser_download_url": "https://github.com/usebruno/bruno/releases/download/v1.31.0/bruno_1.31.0_x64_win.exe"
@@ -3246,7 +3246,7 @@
         "content_type": "application/x-msdownload",
         "state": "uploaded",
         "size": 89427840,
-        "download_count": 8005,
+        "download_count": 8006,
         "created_at": "2024-09-22T07:36:17Z",
         "updated_at": "2024-09-22T07:36:28Z",
         "browser_download_url": "https://github.com/usebruno/bruno/releases/download/v1.30.1/bruno_1.30.1_x64_win.exe"
@@ -3440,7 +3440,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 112203714,
-        "download_count": 1092,
+        "download_count": 1093,
         "created_at": "2024-09-21T08:29:16Z",
         "updated_at": "2024-09-21T08:31:20Z",
         "browser_download_url": "https://github.com/usebruno/bruno/releases/download/v1.30.0/bruno_1.30.0_arm64_mac.dmg"
@@ -3580,7 +3580,7 @@
         "content_type": "application/x-msdownload",
         "state": "uploaded",
         "size": 89428064,
-        "download_count": 548,
+        "download_count": 551,
         "created_at": "2024-09-21T09:21:39Z",
         "updated_at": "2024-09-21T09:22:31Z",
         "browser_download_url": "https://github.com/usebruno/bruno/releases/download/v1.30.0/bruno_1.30.0_x64_win.exe"
@@ -3914,7 +3914,7 @@
         "content_type": "application/x-msdownload",
         "state": "uploaded",
         "size": 89425304,
-        "download_count": 3473,
+        "download_count": 3474,
         "created_at": "2024-09-18T20:01:12Z",
         "updated_at": "2024-09-18T20:01:39Z",
         "browser_download_url": "https://github.com/usebruno/bruno/releases/download/v1.29.1/bruno_1.29.1_x64_win.exe"
@@ -4073,7 +4073,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 84799382,
-        "download_count": 252,
+        "download_count": 253,
         "created_at": "2024-09-17T13:28:59Z",
         "updated_at": "2024-09-17T13:30:06Z",
         "browser_download_url": "https://github.com/usebruno/bruno/releases/download/v1.29.0/bruno_1.29.0_amd64_linux.deb"
@@ -4248,7 +4248,7 @@
         "content_type": "application/x-msdownload",
         "state": "uploaded",
         "size": 89424600,
-        "download_count": 1976,
+        "download_count": 1977,
         "created_at": "2024-09-17T14:44:44Z",
         "updated_at": "2024-09-17T14:49:06Z",
         "browser_download_url": "https://github.com/usebruno/bruno/releases/download/v1.29.0/bruno_1.29.0_x64_win.exe"
@@ -4582,7 +4582,7 @@
         "content_type": "application/x-msdownload",
         "state": "uploaded",
         "size": 89422696,
-        "download_count": 12582,
+        "download_count": 12583,
         "created_at": "2024-09-04T12:36:49Z",
         "updated_at": "2024-09-04T12:37:21Z",
         "browser_download_url": "https://github.com/usebruno/bruno/releases/download/v1.28.0/bruno_1.28.0_x64_win.exe"
@@ -4916,7 +4916,7 @@
         "content_type": "application/x-msdownload",
         "state": "uploaded",
         "size": 89429880,
-        "download_count": 7602,
+        "download_count": 7604,
         "created_at": "2024-08-28T10:27:59Z",
         "updated_at": "2024-08-28T10:28:09Z",
         "browser_download_url": "https://github.com/usebruno/bruno/releases/download/v1.27.0/bruno_1.27.0_x64_win.exe"
@@ -5250,7 +5250,7 @@
         "content_type": "application/x-msdownload",
         "state": "uploaded",
         "size": 89408576,
-        "download_count": 4143,
+        "download_count": 4144,
         "created_at": "2024-08-25T19:41:24Z",
         "updated_at": "2024-08-25T19:41:35Z",
         "browser_download_url": "https://github.com/usebruno/bruno/releases/download/v1.26.2/bruno_1.26.2_x64_win.exe"
@@ -5584,7 +5584,7 @@
         "content_type": "application/x-msdownload",
         "state": "uploaded",
         "size": 87446696,
-        "download_count": 3377,
+        "download_count": 3378,
         "created_at": "2024-08-22T09:09:58Z",
         "updated_at": "2024-08-22T09:10:07Z",
         "browser_download_url": "https://github.com/usebruno/bruno/releases/download/v1.26.1/bruno_1.26.1_x64_win.exe"
@@ -5918,7 +5918,7 @@
         "content_type": "application/x-msdownload",
         "state": "uploaded",
         "size": 87492168,
-        "download_count": 1423,
+        "download_count": 1424,
         "created_at": "2024-08-21T14:56:33Z",
         "updated_at": "2024-08-21T14:58:04Z",
         "browser_download_url": "https://github.com/usebruno/bruno/releases/download/v1.26.0/bruno_1.26.0_x64_win.exe"
@@ -6112,7 +6112,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 106749970,
-        "download_count": 9617,
+        "download_count": 9618,
         "created_at": "2024-08-14T11:09:50Z",
         "updated_at": "2024-08-14T11:10:01Z",
         "browser_download_url": "https://github.com/usebruno/bruno/releases/download/v1.25.0/bruno_1.25.0_arm64_mac.dmg"
@@ -6252,7 +6252,7 @@
         "content_type": "application/x-msdownload",
         "state": "uploaded",
         "size": 85221240,
-        "download_count": 7149,
+        "download_count": 7150,
         "created_at": "2024-08-14T11:35:58Z",
         "updated_at": "2024-08-14T11:36:27Z",
         "browser_download_url": "https://github.com/usebruno/bruno/releases/download/v1.25.0/bruno_1.25.0_x64_win.exe"
@@ -6586,7 +6586,7 @@
         "content_type": "application/x-msdownload",
         "state": "uploaded",
         "size": 86976552,
-        "download_count": 7462,
+        "download_count": 7463,
         "created_at": "2024-08-08T10:25:21Z",
         "updated_at": "2024-08-08T10:25:30Z",
         "browser_download_url": "https://github.com/usebruno/bruno/releases/download/v1.24.0/bruno_1.24.0_x64_win.exe"
@@ -6920,7 +6920,7 @@
         "content_type": "application/x-msdownload",
         "state": "uploaded",
         "size": 85194280,
-        "download_count": 5790,
+        "download_count": 5791,
         "created_at": "2024-08-02T12:36:56Z",
         "updated_at": "2024-08-02T12:42:07Z",
         "browser_download_url": "https://github.com/usebruno/bruno/releases/download/v1.23.1/bruno_1.23.1_x64_win.exe"
@@ -7113,7 +7113,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 106760685,
-        "download_count": 3950,
+        "download_count": 3951,
         "created_at": "2024-07-31T12:51:06Z",
         "updated_at": "2024-07-31T12:51:17Z",
         "browser_download_url": "https://github.com/usebruno/bruno/releases/download/v1.23.0/bruno_1.23.0_arm64_mac.dmg"
@@ -7183,7 +7183,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 114268013,
-        "download_count": 1103,
+        "download_count": 1104,
         "created_at": "2024-07-31T12:51:25Z",
         "updated_at": "2024-07-31T12:51:33Z",
         "browser_download_url": "https://github.com/usebruno/bruno/releases/download/v1.23.0/bruno_1.23.0_x64_mac.dmg"
@@ -7253,7 +7253,7 @@
         "content_type": "application/x-msdownload",
         "state": "uploaded",
         "size": 85191392,
-        "download_count": 2895,
+        "download_count": 2896,
         "created_at": "2024-07-31T12:42:55Z",
         "updated_at": "2024-07-31T12:48:00Z",
         "browser_download_url": "https://github.com/usebruno/bruno/releases/download/v1.23.0/bruno_1.23.0_x64_win.exe"
@@ -7587,7 +7587,7 @@
         "content_type": "application/x-msdownload",
         "state": "uploaded",
         "size": 85169256,
-        "download_count": 7347,
+        "download_count": 7348,
         "created_at": "2024-07-23T12:11:31Z",
         "updated_at": "2024-07-23T12:11:41Z",
         "browser_download_url": "https://github.com/usebruno/bruno/releases/download/v1.22.0/bruno_1.22.0_x64_win.exe"
@@ -7921,7 +7921,7 @@
         "content_type": "application/x-msdownload",
         "state": "uploaded",
         "size": 74612936,
-        "download_count": 6508,
+        "download_count": 6510,
         "created_at": "2024-07-15T12:23:09Z",
         "updated_at": "2024-07-15T12:23:46Z",
         "browser_download_url": "https://github.com/usebruno/bruno/releases/download/v1.21.0/bruno_1.21.0_x64_win.exe"
@@ -8115,7 +8115,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 96054749,
-        "download_count": 6640,
+        "download_count": 6641,
         "created_at": "2024-07-10T11:54:36Z",
         "updated_at": "2024-07-10T11:54:47Z",
         "browser_download_url": "https://github.com/usebruno/bruno/releases/download/v1.20.4/bruno_1.20.4_arm64_mac.dmg"
@@ -8255,7 +8255,7 @@
         "content_type": "application/x-msdownload",
         "state": "uploaded",
         "size": 74987536,
-        "download_count": 5216,
+        "download_count": 5219,
         "created_at": "2024-07-10T11:46:10Z",
         "updated_at": "2024-07-10T11:48:59Z",
         "browser_download_url": "https://github.com/usebruno/bruno/releases/download/v1.20.4/bruno_1.20.4_x64_win.exe"
@@ -8325,7 +8325,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 103201246,
-        "download_count": 290,
+        "download_count": 291,
         "created_at": "2024-07-10T11:57:55Z",
         "updated_at": "2024-07-10T11:58:05Z",
         "browser_download_url": "https://github.com/usebruno/bruno/releases/download/v1.20.4/bruno_1.20.4_x86_64_linux.AppImage"
@@ -8589,7 +8589,7 @@
         "content_type": "application/x-msdownload",
         "state": "uploaded",
         "size": 74987728,
-        "download_count": 832,
+        "download_count": 834,
         "created_at": "2024-07-10T07:46:47Z",
         "updated_at": "2024-07-10T07:46:55Z",
         "browser_download_url": "https://github.com/usebruno/bruno/releases/download/v1.20.3/bruno_1.20.3_x64_win.exe"
@@ -8923,7 +8923,7 @@
         "content_type": "application/x-msdownload",
         "state": "uploaded",
         "size": 74808560,
-        "download_count": 2493,
+        "download_count": 2494,
         "created_at": "2024-07-07T10:15:21Z",
         "updated_at": "2024-07-07T10:15:31Z",
         "browser_download_url": "https://github.com/usebruno/bruno/releases/download/v1.20.2/bruno_1.20.2_x64_win.exe"
@@ -9257,7 +9257,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 74807208,
-        "download_count": 2188,
+        "download_count": 2189,
         "created_at": "2024-07-04T13:57:04Z",
         "updated_at": "2024-07-04T13:58:08Z",
         "browser_download_url": "https://github.com/usebruno/bruno/releases/download/v1.20.1/bruno_1.20.1_x64_win.exe"
@@ -9591,7 +9591,7 @@
         "content_type": "application/x-msdownload",
         "state": "uploaded",
         "size": 74586952,
-        "download_count": 3970,
+        "download_count": 3972,
         "created_at": "2024-07-01T14:55:26Z",
         "updated_at": "2024-07-01T14:56:48Z",
         "browser_download_url": "https://github.com/usebruno/bruno/releases/download/v1.20.0/bruno_1.20.0_x64_win.exe"
@@ -9925,7 +9925,7 @@
         "content_type": "application/x-msdownload",
         "state": "uploaded",
         "size": 75223920,
-        "download_count": 14581,
+        "download_count": 14582,
         "created_at": "2024-06-11T08:07:57Z",
         "updated_at": "2024-06-11T08:08:28Z",
         "browser_download_url": "https://github.com/usebruno/bruno/releases/download/v1.19.0/bruno_1.19.0_x64_win.exe"
@@ -9960,7 +9960,7 @@
         "content_type": "application/zip",
         "state": "uploaded",
         "size": 107500382,
-        "download_count": 5297,
+        "download_count": 5299,
         "created_at": "2024-06-11T08:08:48Z",
         "updated_at": "2024-06-11T08:09:15Z",
         "browser_download_url": "https://github.com/usebruno/bruno/releases/download/v1.19.0/bruno_1.19.0_x64_win.zip"
@@ -10294,7 +10294,7 @@
         "content_type": "application/x-msdownload",
         "state": "uploaded",
         "size": 75118728,
-        "download_count": 2824,
+        "download_count": 2825,
         "created_at": "2024-05-29T18:03:56Z",
         "updated_at": "2024-05-29T18:04:05Z",
         "browser_download_url": "https://github.com/usebruno/bruno/releases/download/v1.18.1/bruno_1.18.1_x64_win.exe"
@@ -10628,7 +10628,7 @@
         "content_type": "application/x-msdownload",
         "state": "uploaded",
         "size": 76609328,
-        "download_count": 13482,
+        "download_count": 13484,
         "created_at": "2024-05-22T16:55:56Z",
         "updated_at": "2024-05-22T16:56:08Z",
         "browser_download_url": "https://github.com/usebruno/bruno/releases/download/v1.18.0/bruno_1.18.0_x64_win.exe"
@@ -10962,7 +10962,7 @@
         "content_type": "application/x-msdownload",
         "state": "uploaded",
         "size": 76702080,
-        "download_count": 10980,
+        "download_count": 10981,
         "created_at": "2024-05-07T18:01:24Z",
         "updated_at": "2024-05-07T18:04:56Z",
         "browser_download_url": "https://github.com/usebruno/bruno/releases/download/v1.17.0/bruno_1.17.0_x64_win.exe"
@@ -11296,7 +11296,7 @@
         "content_type": "application/x-msdownload",
         "state": "uploaded",
         "size": 76702512,
-        "download_count": 5573,
+        "download_count": 5574,
         "created_at": "2024-04-30T15:39:27Z",
         "updated_at": "2024-04-30T15:39:36Z",
         "browser_download_url": "https://github.com/usebruno/bruno/releases/download/v1.16.1/bruno_1.16.1_x64_win.exe"
@@ -11629,7 +11629,7 @@
         "content_type": "application/x-msdownload",
         "state": "uploaded",
         "size": 76764768,
-        "download_count": 1831,
+        "download_count": 1832,
         "created_at": "2024-04-29T15:21:56Z",
         "updated_at": "2024-04-29T15:22:06Z",
         "browser_download_url": "https://github.com/usebruno/bruno/releases/download/v1.16.0/bruno_1.16.0_x64_win.exe"
@@ -11963,7 +11963,7 @@
         "content_type": "application/x-msdownload",
         "state": "uploaded",
         "size": 76763912,
-        "download_count": 467,
+        "download_count": 468,
         "created_at": "2024-04-29T13:03:01Z",
         "updated_at": "2024-04-29T13:03:06Z",
         "browser_download_url": "https://github.com/usebruno/bruno/releases/download/v1.15.0/bruno_1.15.0_x64_win.exe"
@@ -12157,7 +12157,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 96005936,
-        "download_count": 6196,
+        "download_count": 6197,
         "created_at": "2024-04-22T15:00:52Z",
         "updated_at": "2024-04-22T15:01:08Z",
         "browser_download_url": "https://github.com/usebruno/bruno/releases/download/v1.14.0/bruno_1.14.0_arm64_mac.dmg"
@@ -12297,7 +12297,7 @@
         "content_type": "application/x-msdownload",
         "state": "uploaded",
         "size": 76761752,
-        "download_count": 5146,
+        "download_count": 5148,
         "created_at": "2024-04-22T16:45:45Z",
         "updated_at": "2024-04-22T16:46:15Z",
         "browser_download_url": "https://github.com/usebruno/bruno/releases/download/v1.14.0/bruno_1.14.0_x64_win.exe"
@@ -12491,7 +12491,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 96005647,
-        "download_count": 5500,
+        "download_count": 5501,
         "created_at": "2024-04-15T21:08:43Z",
         "updated_at": "2024-04-15T21:08:53Z",
         "browser_download_url": "https://github.com/usebruno/bruno/releases/download/v1.13.1/bruno_1.13.1_arm64_mac.dmg"
@@ -12631,7 +12631,7 @@
         "content_type": "application/x-msdownload",
         "state": "uploaded",
         "size": 76751072,
-        "download_count": 4721,
+        "download_count": 4723,
         "created_at": "2024-04-15T21:29:44Z",
         "updated_at": "2024-04-15T21:31:58Z",
         "browser_download_url": "https://github.com/usebruno/bruno/releases/download/v1.13.1/bruno_1.13.1_x64_win.exe"
@@ -12666,7 +12666,7 @@
         "content_type": "application/x-zip-compressed",
         "state": "uploaded",
         "size": 109314854,
-        "download_count": 3138,
+        "download_count": 3149,
         "created_at": "2024-04-15T21:36:29Z",
         "updated_at": "2024-04-15T21:37:16Z",
         "browser_download_url": "https://github.com/usebruno/bruno/releases/download/v1.13.1/bruno_1.13.1_x64_win.zip"
@@ -12965,7 +12965,7 @@
         "content_type": "application/x-msdownload",
         "state": "uploaded",
         "size": 76751528,
-        "download_count": 1449,
+        "download_count": 1450,
         "created_at": "2024-04-13T13:04:31Z",
         "updated_at": "2024-04-13T13:04:48Z",
         "browser_download_url": "https://github.com/usebruno/bruno/releases/download/v1.13.0/bruno_1.13.0_x64_win.exe"
@@ -13299,7 +13299,7 @@
         "content_type": "application/x-msdownload",
         "state": "uploaded",
         "size": 80845376,
-        "download_count": 12475,
+        "download_count": 12477,
         "created_at": "2024-03-25T18:58:56Z",
         "updated_at": "2024-03-25T18:59:09Z",
         "browser_download_url": "https://github.com/usebruno/bruno/releases/download/v1.12.3/bruno_1.12.3_x64_win.exe"
@@ -13633,7 +13633,7 @@
         "content_type": "application/x-msdownload",
         "state": "uploaded",
         "size": 80852184,
-        "download_count": 3657,
+        "download_count": 3658,
         "created_at": "2024-03-20T19:25:52Z",
         "updated_at": "2024-03-20T19:26:00Z",
         "browser_download_url": "https://github.com/usebruno/bruno/releases/download/v1.12.2/bruno_1.12.2_x64_win.exe"
@@ -13967,7 +13967,7 @@
         "content_type": "application/x-msdownload",
         "state": "uploaded",
         "size": 74694352,
-        "download_count": 902,
+        "download_count": 903,
         "created_at": "2024-03-19T07:48:40Z",
         "updated_at": "2024-03-19T07:49:11Z",
         "browser_download_url": "https://github.com/usebruno/bruno/releases/download/v1.12.1/bruno_1.12.1_x64_win.exe"
@@ -14564,7 +14564,7 @@
         "content_type": "application/x-msdownload",
         "state": "uploaded",
         "size": 80420376,
-        "download_count": 6817,
+        "download_count": 6818,
         "created_at": "2024-03-12T20:02:23Z",
         "updated_at": "2024-03-12T20:02:34Z",
         "browser_download_url": "https://github.com/usebruno/bruno/releases/download/v1.11.0/bruno_1.11.0_x64_win.exe"
@@ -14898,7 +14898,7 @@
         "content_type": "application/x-msdownload",
         "state": "uploaded",
         "size": 80199856,
-        "download_count": 9915,
+        "download_count": 9917,
         "created_at": "2024-02-27T20:08:33Z",
         "updated_at": "2024-02-27T20:08:48Z",
         "browser_download_url": "https://github.com/usebruno/bruno/releases/download/v1.10.0/bruno_1.10.0_x64_win.exe"
@@ -15232,7 +15232,7 @@
         "content_type": "application/x-msdownload",
         "state": "uploaded",
         "size": 80121936,
-        "download_count": 6347,
+        "download_count": 6349,
         "created_at": "2024-02-13T23:17:32Z",
         "updated_at": "2024-02-13T23:17:44Z",
         "browser_download_url": "https://github.com/usebruno/bruno/releases/download/v1.9.0/bruno_1.9.0_x64_win.exe"
@@ -15426,7 +15426,7 @@
         "content_type": "application/x-diskcopy",
         "state": "uploaded",
         "size": 95873096,
-        "download_count": 3803,
+        "download_count": 3804,
         "created_at": "2024-02-05T22:26:46Z",
         "updated_at": "2024-02-05T22:26:59Z",
         "browser_download_url": "https://github.com/usebruno/bruno/releases/download/v1.8.0/bruno_1.8.0_arm64_mac.dmg"
@@ -15566,7 +15566,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 80250528,
-        "download_count": 5934,
+        "download_count": 5936,
         "created_at": "2024-02-05T22:54:06Z",
         "updated_at": "2024-02-05T22:54:17Z",
         "browser_download_url": "https://github.com/usebruno/bruno/releases/download/v1.8.0/bruno_1.8.0_x64_win.exe"
@@ -15900,7 +15900,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 80250448,
-        "download_count": 2958,
+        "download_count": 2960,
         "created_at": "2024-01-30T17:41:55Z",
         "updated_at": "2024-01-30T17:44:11Z",
         "browser_download_url": "https://github.com/usebruno/bruno/releases/download/v1.7.1/bruno_1.7.1_x64_win.exe"
@@ -16234,7 +16234,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 80207560,
-        "download_count": 627,
+        "download_count": 629,
         "created_at": "2024-01-29T19:47:25Z",
         "updated_at": "2024-01-29T19:47:37Z",
         "browser_download_url": "https://github.com/usebruno/bruno/releases/download/v1.7.0/bruno_1.7.0_x64_win.exe"
@@ -16568,7 +16568,7 @@
         "content_type": "application/x-msdownload",
         "state": "uploaded",
         "size": 80233720,
-        "download_count": 9599,
+        "download_count": 9601,
         "created_at": "2024-01-05T11:17:31Z",
         "updated_at": "2024-01-05T11:17:41Z",
         "browser_download_url": "https://github.com/usebruno/bruno/releases/download/v1.6.1/bruno_1.6.1_x64_win.exe"
@@ -16902,7 +16902,7 @@
         "content_type": "application/x-msdownload",
         "state": "uploaded",
         "size": 80233504,
-        "download_count": 822,
+        "download_count": 824,
         "created_at": "2024-01-04T22:23:20Z",
         "updated_at": "2024-01-04T22:23:31Z",
         "browser_download_url": "https://github.com/usebruno/bruno/releases/download/v1.6.0/bruno_1.6.0_x64_win.exe"
@@ -17236,7 +17236,7 @@
         "content_type": "application/x-msdownload",
         "state": "uploaded",
         "size": 80240240,
-        "download_count": 5849,
+        "download_count": 5851,
         "created_at": "2023-12-18T12:35:38Z",
         "updated_at": "2023-12-18T12:35:47Z",
         "browser_download_url": "https://github.com/usebruno/bruno/releases/download/v1.5.1/bruno_1.5.1_x64_win.exe"
@@ -17570,7 +17570,7 @@
         "content_type": "application/x-msdownload",
         "state": "uploaded",
         "size": 80240088,
-        "download_count": 818,
+        "download_count": 820,
         "created_at": "2023-12-17T23:21:58Z",
         "updated_at": "2023-12-17T23:22:12Z",
         "browser_download_url": "https://github.com/usebruno/bruno/releases/download/v1.5.0/bruno_1.5.0_x64_win.exe"
@@ -17904,7 +17904,7 @@
         "content_type": "application/x-msdownload",
         "state": "uploaded",
         "size": 80250504,
-        "download_count": 3819,
+        "download_count": 3821,
         "created_at": "2023-12-05T20:50:48Z",
         "updated_at": "2023-12-05T20:50:57Z",
         "browser_download_url": "https://github.com/usebruno/bruno/releases/download/v1.4.0/bruno_1.4.0_x64_win.exe"
@@ -18238,7 +18238,7 @@
         "content_type": "application/x-msdownload",
         "state": "uploaded",
         "size": 80251072,
-        "download_count": 1247,
+        "download_count": 1249,
         "created_at": "2023-12-04T14:12:23Z",
         "updated_at": "2023-12-04T14:12:36Z",
         "browser_download_url": "https://github.com/usebruno/bruno/releases/download/v1.3.2/bruno_1.3.2_x64_win.exe"
@@ -18572,7 +18572,7 @@
         "content_type": "application/x-msdownload",
         "state": "uploaded",
         "size": 80250680,
-        "download_count": 560,
+        "download_count": 562,
         "created_at": "2023-12-04T10:01:47Z",
         "updated_at": "2023-12-04T10:01:56Z",
         "browser_download_url": "https://github.com/usebruno/bruno/releases/download/v1.3.1/bruno_1.3.1_x64_win.exe"
@@ -18906,7 +18906,7 @@
         "content_type": "application/x-msdownload",
         "state": "uploaded",
         "size": 80251952,
-        "download_count": 825,
+        "download_count": 827,
         "created_at": "2023-12-01T21:20:59Z",
         "updated_at": "2023-12-01T21:23:35Z",
         "browser_download_url": "https://github.com/usebruno/bruno/releases/download/v1.3.0/bruno_1.3.0_x64_win.exe"
@@ -19100,7 +19100,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 95773240,
-        "download_count": 3486,
+        "download_count": 3487,
         "created_at": "2023-11-20T08:27:26Z",
         "updated_at": "2023-11-20T08:27:37Z",
         "browser_download_url": "https://github.com/usebruno/bruno/releases/download/v1.2.0/bruno_1.2.0_arm64_mac.dmg"
@@ -19240,7 +19240,7 @@
         "content_type": "application/x-msdownload",
         "state": "uploaded",
         "size": 80255640,
-        "download_count": 4599,
+        "download_count": 4601,
         "created_at": "2023-11-20T08:47:19Z",
         "updated_at": "2023-11-20T08:47:42Z",
         "browser_download_url": "https://github.com/usebruno/bruno/releases/download/v1.2.0/bruno_1.2.0_x64_win.exe"
@@ -19574,7 +19574,7 @@
         "content_type": "application/x-msdownload",
         "state": "uploaded",
         "size": 79868320,
-        "download_count": 4331,
+        "download_count": 4333,
         "created_at": "2023-11-09T08:48:05Z",
         "updated_at": "2023-11-09T08:48:23Z",
         "browser_download_url": "https://github.com/usebruno/bruno/releases/download/v1.1.1/bruno_1.1.1_x64_win.exe"
@@ -19908,7 +19908,7 @@
         "content_type": "application/x-msdownload",
         "state": "uploaded",
         "size": 79792160,
-        "download_count": 2974,
+        "download_count": 2975,
         "created_at": "2023-11-03T15:32:47Z",
         "updated_at": "2023-11-03T15:32:58Z",
         "browser_download_url": "https://github.com/usebruno/bruno/releases/download/v1.1.0/bruno_1.1.0_x64_win.exe"
@@ -25576,7 +25576,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 92501736,
-        "download_count": 199,
+        "download_count": 200,
         "created_at": "2023-09-30T21:30:56Z",
         "updated_at": "2023-09-30T21:31:11Z",
         "browser_download_url": "https://github.com/usebruno/bruno/releases/download/v0.16.5/bruno_0.16.5_arm64_mac.dmg"
@@ -25611,7 +25611,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 96761405,
-        "download_count": 85,
+        "download_count": 86,
         "created_at": "2023-09-30T21:31:11Z",
         "updated_at": "2023-09-30T21:31:24Z",
         "browser_download_url": "https://github.com/usebruno/bruno/releases/download/v0.16.5/bruno_0.16.5_x64_mac.dmg"
@@ -25646,7 +25646,7 @@
         "content_type": "application/x-msdownload",
         "state": "uploaded",
         "size": 78253008,
-        "download_count": 91,
+        "download_count": 92,
         "created_at": "2023-09-30T22:18:10Z",
         "updated_at": "2023-09-30T22:18:22Z",
         "browser_download_url": "https://github.com/usebruno/bruno/releases/download/v0.16.5/bruno_0.16.5_x64_win.exe"
@@ -25681,7 +25681,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 99666919,
-        "download_count": 36,
+        "download_count": 37,
         "created_at": "2023-09-30T21:37:52Z",
         "updated_at": "2023-09-30T21:38:07Z",
         "browser_download_url": "https://github.com/usebruno/bruno/releases/download/v0.16.5/bruno_0.16.5_x86_64_linux.AppImage"
@@ -25770,7 +25770,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 68611830,
-        "download_count": 42,
+        "download_count": 43,
         "created_at": "2023-09-29T22:01:30Z",
         "updated_at": "2023-09-29T22:01:39Z",
         "browser_download_url": "https://github.com/usebruno/bruno/releases/download/v0.16.4/bruno_0.16.4_amd64_linux.deb"
@@ -25805,7 +25805,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 92485052,
-        "download_count": 126,
+        "download_count": 127,
         "created_at": "2023-09-29T21:30:40Z",
         "updated_at": "2023-09-29T21:30:52Z",
         "browser_download_url": "https://github.com/usebruno/bruno/releases/download/v0.16.4/bruno_0.16.4_arm64_mac.dmg"
@@ -25840,7 +25840,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 96731752,
-        "download_count": 58,
+        "download_count": 59,
         "created_at": "2023-09-29T21:30:52Z",
         "updated_at": "2023-09-29T21:31:09Z",
         "browser_download_url": "https://github.com/usebruno/bruno/releases/download/v0.16.4/bruno_0.16.4_x64_mac.dmg"
@@ -25875,7 +25875,7 @@
         "content_type": "application/x-msdownload",
         "state": "uploaded",
         "size": 78230608,
-        "download_count": 89,
+        "download_count": 90,
         "created_at": "2023-09-29T22:05:42Z",
         "updated_at": "2023-09-29T22:05:53Z",
         "browser_download_url": "https://github.com/usebruno/bruno/releases/download/v0.16.4/bruno_0.16.4_x64_win.exe"
@@ -25910,7 +25910,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 99642058,
-        "download_count": 52,
+        "download_count": 53,
         "created_at": "2023-09-29T22:01:39Z",
         "updated_at": "2023-09-29T22:01:54Z",
         "browser_download_url": "https://github.com/usebruno/bruno/releases/download/v0.16.4/bruno_0.16.4_x86_64_linux.AppImage"
@@ -26034,7 +26034,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 92442408,
-        "download_count": 224,
+        "download_count": 225,
         "created_at": "2023-09-29T07:25:49Z",
         "updated_at": "2023-09-29T07:26:01Z",
         "browser_download_url": "https://github.com/usebruno/bruno/releases/download/v0.16.3/bruno_0.16.3_arm64_mac.dmg"
@@ -26069,7 +26069,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 96726961,
-        "download_count": 114,
+        "download_count": 115,
         "created_at": "2023-09-29T07:26:01Z",
         "updated_at": "2023-09-29T07:26:22Z",
         "browser_download_url": "https://github.com/usebruno/bruno/releases/download/v0.16.3/bruno_0.16.3_x64_mac.dmg"
@@ -26104,7 +26104,7 @@
         "content_type": "application/x-msdownload",
         "state": "uploaded",
         "size": 78271312,
-        "download_count": 184,
+        "download_count": 185,
         "created_at": "2023-09-29T07:32:21Z",
         "updated_at": "2023-09-29T07:32:32Z",
         "browser_download_url": "https://github.com/usebruno/bruno/releases/download/v0.16.3/bruno_0.16.3_x64_win.exe"
@@ -26139,7 +26139,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 99633839,
-        "download_count": 37,
+        "download_count": 38,
         "created_at": "2023-09-29T07:29:29Z",
         "updated_at": "2023-09-29T07:29:40Z",
         "browser_download_url": "https://github.com/usebruno/bruno/releases/download/v0.16.3/bruno_0.16.3_x86_64_linux.AppImage"
@@ -31944,7 +31944,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 67491606,
-        "download_count": 10,
+        "download_count": 11,
         "created_at": "2023-01-29T15:24:07Z",
         "updated_at": "2023-01-29T15:24:19Z",
         "browser_download_url": "https://github.com/usebruno/bruno/releases/download/v0.7.2/bruno_0.7.2_amd64_linux.deb"
@@ -32014,7 +32014,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 92574103,
-        "download_count": 10,
+        "download_count": 11,
         "created_at": "2023-01-29T15:24:29Z",
         "updated_at": "2023-01-29T15:24:39Z",
         "browser_download_url": "https://github.com/usebruno/bruno/releases/download/v0.7.2/bruno_0.7.2_x64_mac.dmg"
@@ -32049,7 +32049,7 @@
         "content_type": "application/x-msdownload",
         "state": "uploaded",
         "size": 77017103,
-        "download_count": 13,
+        "download_count": 14,
         "created_at": "2023-01-29T15:24:39Z",
         "updated_at": "2023-01-29T15:24:49Z",
         "browser_download_url": "https://github.com/usebruno/bruno/releases/download/v0.7.2/bruno_0.7.2_x64_win.exe"
@@ -32084,7 +32084,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 97169975,
-        "download_count": 8,
+        "download_count": 9,
         "created_at": "2023-01-29T15:24:49Z",
         "updated_at": "2023-01-29T15:25:01Z",
         "browser_download_url": "https://github.com/usebruno/bruno/releases/download/v0.7.2/bruno_0.7.2_x86_64_linux.AppImage"
@@ -32160,7 +32160,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 67495374,
-        "download_count": 6,
+        "download_count": 7,
         "created_at": "2023-01-29T14:28:17Z",
         "updated_at": "2023-01-29T14:28:26Z",
         "browser_download_url": "https://github.com/usebruno/bruno/releases/download/v0.7.1/bruno_0.7.1_amd64_linux.deb"
@@ -32195,7 +32195,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 89630150,
-        "download_count": 6,
+        "download_count": 7,
         "created_at": "2023-01-29T14:28:26Z",
         "updated_at": "2023-01-29T14:28:35Z",
         "browser_download_url": "https://github.com/usebruno/bruno/releases/download/v0.7.1/bruno_0.7.1_arm64_mac.dmg"
@@ -32230,7 +32230,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 92574083,
-        "download_count": 7,
+        "download_count": 8,
         "created_at": "2023-01-29T14:28:35Z",
         "updated_at": "2023-01-29T14:28:47Z",
         "browser_download_url": "https://github.com/usebruno/bruno/releases/download/v0.7.1/bruno_0.7.1_x64_mac.dmg"
@@ -32300,7 +32300,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 97170152,
-        "download_count": 7,
+        "download_count": 8,
         "created_at": "2023-01-29T14:28:59Z",
         "updated_at": "2023-01-29T14:29:10Z",
         "browser_download_url": "https://github.com/usebruno/bruno/releases/download/v0.7.1/bruno_0.7.1_x86_64_linux.AppImage"
@@ -32376,7 +32376,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 67454830,
-        "download_count": 7,
+        "download_count": 8,
         "created_at": "2023-01-29T14:11:35Z",
         "updated_at": "2023-01-29T14:11:46Z",
         "browser_download_url": "https://github.com/usebruno/bruno/releases/download/v0.7.0/bruno_0.7.0_amd64_linux.deb"
@@ -32411,7 +32411,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 89606624,
-        "download_count": 6,
+        "download_count": 7,
         "created_at": "2023-01-29T14:11:46Z",
         "updated_at": "2023-01-29T14:12:01Z",
         "browser_download_url": "https://github.com/usebruno/bruno/releases/download/v0.7.0/bruno_0.7.0_arm64_mac.dmg"
@@ -32446,7 +32446,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 92599605,
-        "download_count": 7,
+        "download_count": 8,
         "created_at": "2023-01-29T14:12:01Z",
         "updated_at": "2023-01-29T14:12:11Z",
         "browser_download_url": "https://github.com/usebruno/bruno/releases/download/v0.7.0/bruno_0.7.0_x64_mac.dmg"
@@ -32481,7 +32481,7 @@
         "content_type": "application/x-msdownload",
         "state": "uploaded",
         "size": 76948867,
-        "download_count": 7,
+        "download_count": 8,
         "created_at": "2023-01-29T14:12:11Z",
         "updated_at": "2023-01-29T14:12:19Z",
         "browser_download_url": "https://github.com/usebruno/bruno/releases/download/v0.7.0/bruno_0.7.0_x64_win.exe"
@@ -32516,7 +32516,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 97112739,
-        "download_count": 7,
+        "download_count": 8,
         "created_at": "2023-01-29T14:12:19Z",
         "updated_at": "2023-01-29T14:12:33Z",
         "browser_download_url": "https://github.com/usebruno/bruno/releases/download/v0.7.0/bruno_0.7.0_x86_64_linux.AppImage"
