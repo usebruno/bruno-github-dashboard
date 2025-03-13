@@ -26,7 +26,7 @@ export default function App({ Component, pageProps }) {
       <div className={`${geistSans.variable} ${geistMono.variable} min-h-screen min-w-[768px] font-[family-name:var(--font-geist-sans)] flex flex-col`}>
         <GithubProvider>
           <Navbar />
-          <main className="max-w-7xl w-full mx-auto px-4 sm:px-6 lg:px-8 py-6 flex-grow">
+          <main className="max-w-7xl w-full mx-auto px-4 sm:px-6 lg:px-8 py-2 flex-grow">
             <Component {...pageProps} />
           </main>
           <Footer />
