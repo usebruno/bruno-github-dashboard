@@ -2,6 +2,7 @@ import Link from 'next/link';
 import { useRouter } from 'next/router';
 import Stats from './stats';
 import Authors from './authors';
+import Insights from './insights';
 
 export default function PullRequests() {
   const router = useRouter();
@@ -11,6 +12,7 @@ export default function PullRequests() {
   const navItems = [
     { name: 'Stats', path: '?tab=stats' },
     { name: 'Authors', path: '?tab=authors' },
+    { name: 'Insights', path: '?tab=insights' },
   ];
 
   return (
@@ -44,6 +46,7 @@ export default function PullRequests() {
 
       {tab === 'stats' && <Stats />}
       {tab === 'authors' && <Authors />}
+      {tab === 'insights' && <Insights />}
     </div>
   );
 }
