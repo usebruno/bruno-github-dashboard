@@ -19,7 +19,8 @@
     "next": "15.0.3",
     "react": "19.0.0-rc-66855b96-20241106",
     "react-chartjs-2": "^5.3.0",
-    "react-dom": "19.0.0-rc-66855b96-20241106"
+    "react-dom": "19.0.0-rc-66855b96-20241106",
+    "axios": "^1.8.4"
   },
   "devDependencies": {
     "postcss": "^8",
