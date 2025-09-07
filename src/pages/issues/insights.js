@@ -23,26 +23,23 @@ ChartJS.register(
 );
 
 export default function Insights() {
-  const { prs } = useGithub();
-  const [chartData, setChartData] = useState(null);
+  const { issues } = useGithub();
+  const [openedChartData, setOpenedChartData] = useState(null);
   const [closedChartData, setClosedChartData] = useState(null);
   
   useEffect(() => {
-    if (!prs || prs.length === 0) return;
+    if (!issues || issues.length === 0) return;
     
-    // Calculate monthly merge statistics
-    const monthlyMerges = prs.reduce((stats, pr) => {
-      // Skip PRs that aren't merged
-      if (!pr.merged_at) return stats;
-      
-      const mergeDate = parseISO(pr.merged_at);
-      const monthKey = format(mergeDate, 'yyyy-MM');
+    // Calculate monthly opened statistics
+    const monthlyOpened = issues.reduce((stats, issue) => {
+      const createdDate = parseISO(issue.created_at);
+      const monthKey = format(createdDate, 'yyyy-MM');
       
       if (!stats[monthKey]) {
         stats[monthKey] = {
-          month: format(mergeDate, 'MMM yyyy'),
+          month: format(createdDate, 'MMM yyyy'),
           count: 0,
-          date: mergeDate, // Keep the date for sorting
+          date: createdDate, // Keep the date for sorting
         };
       }
       
@@ -51,31 +48,31 @@ export default function Insights() {
     }, {});
     
     // Convert to array and sort by date (oldest first)
-    const monthlyDataArray = Object.values(monthlyMerges)
+    const openedDataArray = Object.values(monthlyOpened)
       .sort((a, b) => a.date - b.date);
     
-    // Prepare data for Chart.js
-    const data = {
-      labels: monthlyDataArray.map(item => item.month),
+    // Prepare data for Chart.js (opened issues chart)
+    const openedData = {
+      labels: openedDataArray.map(item => item.month),
       datasets: [
         {
-          label: 'Merged PRs',
-          data: monthlyDataArray.map(item => item.count),
-          backgroundColor: 'rgba(234, 179, 8, 0.6)',
-          borderColor: 'rgba(234, 179, 8, 1)',
+          label: 'Opened Issues',
+          data: openedDataArray.map(item => item.count),
+          backgroundColor: 'rgba(34, 197, 94, 0.6)',
+          borderColor: 'rgba(34, 197, 94, 1)',
           borderWidth: 1,
         },
       ],
     };
     
-    setChartData(data);
+    setOpenedChartData(openedData);
     
-    // Calculate monthly closed statistics (includes both merged and non-merged)
-    const monthlyClosed = prs.reduce((stats, pr) => {
-      // Count all PRs that are closed (includes merged PRs)
-      if (!pr.closed_at) return stats;
+    // Calculate monthly closed statistics
+    const monthlyClosed = issues.reduce((stats, issue) => {
+      // Only count issues that are closed
+      if (!issue.closed_at) return stats;
       
-      const closedDate = parseISO(pr.closed_at);
+      const closedDate = parseISO(issue.closed_at);
       const monthKey = format(closedDate, 'yyyy-MM');
       
       if (!stats[monthKey]) {
@@ -94,12 +91,12 @@ export default function Insights() {
     const closedDataArray = Object.values(monthlyClosed)
       .sort((a, b) => a.date - b.date);
     
-    // Prepare data for Chart.js (closed PRs chart)
+    // Prepare data for Chart.js (closed issues chart)
     const closedData = {
       labels: closedDataArray.map(item => item.month),
       datasets: [
         {
-          label: 'Total Closed PRs',
+          label: 'Closed Issues',
           data: closedDataArray.map(item => item.count),
           backgroundColor: 'rgba(239, 68, 68, 0.6)',
           borderColor: 'rgba(239, 68, 68, 1)',
@@ -109,9 +106,9 @@ export default function Insights() {
     };
     
     setClosedChartData(closedData);
-  }, [prs]);
+  }, [issues]);
   
-  const chartOptions = {
+  const openedChartOptions = {
     responsive: true,
     maintainAspectRatio: false,
     plugins: {
@@ -120,7 +117,7 @@ export default function Insights() {
       },
       title: {
         display: true,
-        text: 'Pull Request Merges by Month',
+        text: 'Issues Opened by Month',
         font: {
           size: 16,
         },
@@ -128,7 +125,7 @@ export default function Insights() {
       tooltip: {
         callbacks: {
           label: function(context) {
-            return `Merged PRs: ${context.raw}`;
+            return `Opened Issues: ${context.raw}`;
           }
         }
       }
@@ -138,7 +135,7 @@ export default function Insights() {
         beginAtZero: true,
         title: {
           display: true,
-          text: 'Number of Merged PRs',
+          text: 'Number of Opened Issues',
         },
         ticks: {
           precision: 0,
@@ -162,7 +159,7 @@ export default function Insights() {
       },
       title: {
         display: true,
-        text: 'Total Pull Requests Closed by Month',
+        text: 'Issues Closed by Month',
         font: {
           size: 16,
         },
@@ -170,7 +167,7 @@ export default function Insights() {
       tooltip: {
         callbacks: {
           label: function(context) {
-            return `Total Closed PRs: ${context.raw}`;
+            return `Closed Issues: ${context.raw}`;
           }
         }
       }
@@ -180,7 +177,7 @@ export default function Insights() {
         beginAtZero: true,
         title: {
           display: true,
-          text: 'Number of Total Closed PRs',
+          text: 'Number of Closed Issues',
         },
         ticks: {
           precision: 0,
@@ -199,11 +196,11 @@ export default function Insights() {
     <div className="flex flex-col gap-6">
       <div className="bg-white rounded shadow p-6">
         <div className="text-sm font-medium text-gray-500 mb-4">
-          Monthly Pull Request Merge Trends
+          Monthly Issue Opening Trends
         </div>
         <div className="h-96">
-          {chartData ? (
-            <Bar data={chartData} options={chartOptions} />
+          {openedChartData ? (
+            <Bar data={openedChartData} options={openedChartOptions} />
           ) : (
             <div className="flex items-center justify-center h-full">
               <p className="text-gray-500">Loading chart data...</p>
@@ -214,7 +211,7 @@ export default function Insights() {
       
       <div className="bg-white rounded shadow p-6">
         <div className="text-sm font-medium text-gray-500 mb-4">
-          Total Monthly Pull Request Closure Trends
+          Monthly Issue Closure Trends
         </div>
         <div className="h-96">
           {closedChartData ? (
@@ -228,4 +225,4 @@ export default function Insights() {
       </div>
     </div>
   );
-} 
+}

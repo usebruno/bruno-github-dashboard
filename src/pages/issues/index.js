@@ -5,6 +5,7 @@ import Modules from './modules';
 import Assignees from './assignees';
 import Reporters from './reporters';
 import Timeline from './timeline';
+import Insights from './insights';
 
 export default function Issues() {
   const router = useRouter();
@@ -13,6 +14,7 @@ export default function Issues() {
   // Navigation items
   const navItems = [
     { name: 'Stats', path: '?tab=stats' },
+    { name: 'Insights', path: '?tab=insights' },
     { name: 'Modules', path: '?tab=modules' },
     { name: 'Assignees', path: '?tab=assignees' },
     { name: 'Timeline', path: '?tab=timeline' },
@@ -49,6 +51,7 @@ export default function Issues() {
       </nav>
 
       {tab === 'stats' && <Stats />}
+      {tab === 'insights' && <Insights />}
       {tab === 'modules' && <Modules />}
       {tab === 'assignees' && <Assignees />}
       {tab === 'timeline' && <Timeline />}
